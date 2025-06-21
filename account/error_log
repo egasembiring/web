@@ -1,0 +1,2 @@
+[08-Aug-2022 08:29:29 Asia/Jakarta] PHP Warning:  require_once(../dynamshop.php): failed to open stream: No such file or directory in /home/yudhaday/game.mypulsaa.com/account/profile.php on line 4
+[08-Aug-2022 08:29:29 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../dynamshop.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/yudhaday/game.mypulsaa.com/account/profile.php on line 4

@@ -1,0 +1,85 @@
+[05-Aug-2022 01:36:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'GojekPay' not found in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 2
+[05-Aug-2022 01:36:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'GojekPay' not found in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 2
+[05-Aug-2022 01:36:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'GojekPay' not found in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 2
+[05-Aug-2022 01:36:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'GojekPay' not found in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 2
+[05-Aug-2022 01:36:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class 'GojekPay' not found in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 2
+[05-Aug-2022 06:12:04 Asia/Jakarta] PHP Notice:  Undefined property: GojekPay::$uuidv4 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 4
+[05-Aug-2022 06:12:32 Asia/Jakarta] PHP Notice:  Undefined property: GojekPay::$uuidv4 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 4
+[05-Aug-2022 06:12:35 Asia/Jakarta] PHP Notice:  Undefined property: GojekPay::$uuidv4 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 4
+[05-Aug-2022 06:13:03 Asia/Jakarta] PHP Notice:  Undefined property: GojekPay::$uuidv4 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 4
+[05-Aug-2022 06:14:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 8
+[05-Aug-2022 06:25:21 Asia/Jakarta] PHP Notice:  Array to string conversion in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 14
+[05-Aug-2022 06:25:56 Asia/Jakarta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:26:13 Asia/Jakarta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:26:38 Asia/Jakarta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:29:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function strtouper() in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:29:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function strtouper() in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:29:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function strtouper() in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:30:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function strtouper() in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:30:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:30:41 Asia/Jakarta] PHP Warning:  printf(): Too few arguments in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:31:21 Asia/Jakarta] PHP Notice:  Array to string conversion in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:31:21 Asia/Jakarta] PHP Warning:  printf(): Too few arguments in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:31:49 Asia/Jakarta] PHP Notice:  Array to string conversion in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:31:49 Asia/Jakarta] PHP Warning:  printf(): Too few arguments in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 13
+[05-Aug-2022 06:33:58 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 5 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 5
+[05-Aug-2022 06:34:51 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 5 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 5
+[05-Aug-2022 06:36:11 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 6 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 6
+[05-Aug-2022 06:38:26 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 7 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 7
+[05-Aug-2022 06:39:28 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 7 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 7
+[05-Aug-2022 06:42:03 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 7 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 7
+[05-Aug-2022 06:43:08 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 7 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 7
+[05-Aug-2022 06:44:22 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 8 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 8
+[05-Aug-2022 06:45:17 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 8 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 8
+[05-Aug-2022 06:51:42 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 9 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 9
+[05-Aug-2022 06:51:42 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function GojekPay::isBank(), 0 passed in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 8 and exactly 2 expected in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php:154
+Stack trace:
+#0 /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php(8): GojekPay->isBank()
+#1 {main}
+  thrown in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php on line 154
+[05-Aug-2022 06:53:02 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 9 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 9
+[05-Aug-2022 06:54:03 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 10 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 10
+[05-Aug-2022 06:54:35 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 10 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 10
+[05-Aug-2022 06:55:11 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 10 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 10
+[05-Aug-2022 07:17:24 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 07:17:24 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php on line 208
+[05-Aug-2022 07:17:24 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php on line 208
+[05-Aug-2022 07:18:06 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 07:18:06 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php on line 208
+[05-Aug-2022 07:18:06 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/yudhaday/game.mypulsaa.com/lib/gopay/gopay.php on line 208
+[05-Aug-2022 07:18:44 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 07:22:19 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 07:37:34 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 08:43:08 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 08:59:55 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[05-Aug-2022 10:02:36 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[07-Aug-2022 05:47:33 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[07-Aug-2022 05:48:08 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11
+[07-Aug-2022 05:49:30 Asia/Jakarta] PHP Warning:  Unterminated comment starting line 11 in /home/yudhaday/game.mypulsaa.com/lib/gopay/auth.php on line 11

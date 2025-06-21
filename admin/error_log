@@ -1,0 +1,91 @@
+[07-Dec-2022 02:36:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 02:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 02:36:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 02:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:12:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:22:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:33:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4
+[07-Dec-2022 18:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/gotopupm/public_html/system/database.php:4
+Stack trace:
+#0 /home/gotopupm/public_html/system/core.php(4): require_once()
+#1 /home/gotopupm/public_html/mainconfig.php(15): require_once('/home/gotopupm/...')
+#2 /home/gotopupm/public_html/admin/index.php(3): require_once('/home/gotopupm/...')
+#3 {main}
+  thrown in /home/gotopupm/public_html/system/database.php on line 4

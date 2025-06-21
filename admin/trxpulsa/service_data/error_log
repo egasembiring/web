@@ -1,0 +1,2 @@
+[13-Dec-2021 11:08:04 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in /home/dynamsho/public_html/system/core.php on line 42
+[13-Dec-2021 11:08:49 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in /home/dynamsho/public_html/system/core.php on line 42
