@@ -58,6 +58,7 @@ if (isset($_POST['login'])) {
                                 $login_at = date('Y-m-d H:i:s');
 
 				$db->query("INSERT INTO user_notifications VALUES('','{$data_user['username']}', 'Melakukan Login','{$address}','{$_SERVER['HTTP_USER_AGENT']}', '".$sumber['geoplugin_city']." ".$sumber['geoplugin_countryCode']."', '', '','{$login_at}')");
+				$device = devices();
 				$db->query("INSERT INTO agent VALUES('', '{$device}','".get_client_browser()."')");
                                 $db->query("UPDATE users SET token = '{$create_token}' WHERE username = '{$post_user}'");
 				$_SESSION['user'] = $data_user;

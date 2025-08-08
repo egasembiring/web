@@ -142,6 +142,10 @@ require_once '../layouts/header.php';
     	</div>
     </div>
     <?php endif; ?>
+    
+    <!-- Flash Sale and Vouchers Section -->
+    <?php include_once '../components/flash_sale_voucher.php'; ?>
+    
  <div class="row justify-content-center">
         <div class="col-lg-7 text-secondary">
             <?php

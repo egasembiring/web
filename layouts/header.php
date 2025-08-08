@@ -238,6 +238,24 @@ function level($s) {
 							<span class="menu-title text-truncate" data-i18n="Daftar Harga">Daftar Harga</span>
 						</a>
 					</li>
+					<?php if (isset($guest) && $guest === true): ?>
+					<li class=" navigation-header">
+						<span>Akun</span>
+						<i data-feather="more-horizontal"></i>
+					</li>
+					<li class="nav-item <?= (uri() == '/id/login') ? 'active':'' ?>">
+						<a class="d-flex align-items-center" href="<?= base_url('/id/login') ?>">
+							<i style="color:#000;" data-feather="log-in"></i>
+							<span class="menu-title text-truncate" data-i18n="Login">Login</span>
+						</a>
+					</li>
+					<li class="nav-item <?= (uri() == '/id/register') ? 'active':'' ?>">
+						<a class="d-flex align-items-center" href="<?= base_url('/id/register') ?>">
+							<i style="color:#000;" data-feather="user-plus"></i>
+							<span class="menu-title text-truncate" data-i18n="Register">Daftar</span>
+						</a>
+					</li>
+					<?php endif; ?>
 					<li class=" navigation-header">
 						<span>Pusat Bantuan</span>
 					<li class="nav-item <?= (uri() == '/page/mitra') ? 'active':'' ?>">
