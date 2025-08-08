@@ -216,17 +216,21 @@ class SecurityManager {
 /**
  * Enhanced CSRF token function
  */
-function csrf_token() {
-    global $security;
-    return $security ? $security->generateCSRFToken() : '';
+if (!function_exists('csrf_token')) {
+    function csrf_token() {
+        global $security;
+        return $security ? $security->generateCSRFToken() : '';
+    }
 }
 
 /**
  * Enhanced input sanitization
  */
-function secure_input($data) {
-    global $security;
-    return $security ? $security->sanitizeInput($data) : htmlspecialchars($data);
+if (!function_exists('secure_input')) {
+    function secure_input($data) {
+        global $security;
+        return $security ? $security->sanitizeInput($data) : htmlspecialchars($data);
+    }
 }
 
 /**

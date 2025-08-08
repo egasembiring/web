@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Game Top-Up Store - Login System Demo">
+    <meta name="keywords" content="login, game, topup">
+    <meta name="author" content="Game Top-Up Store">
+    <meta name="robots" content="index, follow">
+    <title>Login Demo - Game Top-Up Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/icon-dynamshop/icons/user.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/modern-ui.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .demo-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            color: #333;
+            padding: 0.75rem;
+            text-align: center;
+            z-index: 1000;
+            font-size: 0.875rem;
+        }
+        .auth-container {
+            margin-top: 60px;
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Demo Banner -->
+    <div class="demo-banner">
+        🚀 Demo Mode - Enhanced Login System with Modern UI & Security Features
+    </div>
+
+    <div class="auth-container">
+        <div id="alert-container"></div>
+        
+        <div class="card modern-card">
+            <div class="card-body form-modern">
+                <div class="mb-4 text-center">
+                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-size: 2rem;">
+                        🔐
+                    </div>
+                    <h4 class="mt-3 text-primary">Welcome Back</h4>
+                    <p class="text-muted">Sign in to your account</p>
+                </div>
+                
+                <form id="login-form" class="form form-vertical">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label class="form-label">Username<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-modern" name="user" id="username" placeholder="Enter your username" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label class="form-label">Password<span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control form-control-modern" name="pass" id="password" placeholder="Enter your password" required>
+                                    <button type="button" class="btn btn-outline-secondary" id="toggle-password">
+                                        👁️
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" name="remember" id="remember" class="form-check-input">
+                                <label class="form-check-label" for="remember">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button type="submit" class="btn btn-modern btn-gradient-primary w-100">
+                                🚀 Sign In
+                            </button>
+                        </div>
+                        <div class="col-12 text-center">
+                            <p class="mb-2">Don't have an account? <a href="register-demo.html" class="text-primary">Create Account</a></p>
+                            <p class="mb-0"><a href="/demo.html" class="text-muted">← Back to Demo</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Features showcase -->
+        <div class="mt-4">
+            <div class="card modern-card">
+                <div class="card-body">
+                    <h6 class="text-center mb-3">✨ Security Features Implemented</h6>
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <div class="mb-2">🛡️</div>
+                            <small>Rate Limiting</small>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-2">🔒</div>
+                            <small>CSRF Protection</small>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-2">🔐</div>
+                            <small>Secure Sessions</small>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-3">
+                        <div class="col-6">
+                            <div class="mb-2">📝</div>
+                            <small>Input Validation</small>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-2">📊</div>
+                            <small>Security Logging</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/modern-ui.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('login-form');
+            const togglePassword = document.getElementById('toggle-password');
+            const passwordInput = document.getElementById('password');
+            const alertContainer = document.getElementById('alert-container');
+
+            // Password toggle
+            togglePassword.addEventListener('click', function() {
+                const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordInput.setAttribute('type', type);
+                this.textContent = type === 'password' ? '👁️' : '🙈';
+            });
+
+            // Demo login form handler
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                const submitBtn = form.querySelector('button[type="submit"]');
+                
+                // Set loading state
+                submitBtn.innerHTML = '🔄 Signing In...';
+                submitBtn.disabled = true;
+                
+                // Clear previous alerts
+                alertContainer.innerHTML = '';
+                
+                // Simulate API call
+                setTimeout(() => {
+                    if (username && password) {
+                        if (username === 'demo' && password === 'demo123') {
+                            // Success
+                            showAlert('success', 'Login Successful!', 'Welcome to the demo dashboard.');
+                            setTimeout(() => {
+                                window.location.href = '/demo.html?logged_in=true';
+                            }, 1500);
+                        } else {
+                            // Demo credentials info
+                            showAlert('info', 'Demo Credentials', 'Use username: <strong>demo</strong> and password: <strong>demo123</strong> for this demo.');
+                        }
+                    } else {
+                        showAlert('error', 'Validation Error', 'Please fill in all fields.');
+                    }
+                    
+                    // Reset button
+                    submitBtn.innerHTML = '🚀 Sign In';
+                    submitBtn.disabled = false;
+                }, 1500);
+            });
+
+            function showAlert(type, title, message) {
+                const alertClass = type === 'success' ? 'alert-success' : 
+                                 type === 'error' ? 'alert-danger' : 'alert-info';
+                
+                const alertHtml = `
+                    <div class="alert ${alertClass} alert-dismissible fade show" role="alert">
+                        <strong>${title}</strong> ${message}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                `;
+                
+                alertContainer.innerHTML = alertHtml;
+            }
+
+            // Welcome message
+            setTimeout(() => {
+                showNotification('Modern login system loaded! 🎉', 'success', 3000);
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>
