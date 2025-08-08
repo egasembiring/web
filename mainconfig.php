@@ -14,6 +14,7 @@ $_CONFIG = [
 require_once BASEPATH.'helpers/SimCardDetector.php';
 require_once BASEPATH.'core.php';
 require_once BASEPATH.'helpers/db.php';
+require_once BASEPATH.'security.php';
 
 $_CONFIG = array_merge($_CONFIG, [
     'web' => [ // website

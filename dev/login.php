@@ -34,6 +34,10 @@ require_once '../mypulsaa.app/auth-login.php';
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/forms/form-validation.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/page-auth.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/modern-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -67,10 +71,12 @@ require_once '../mypulsaa.app/auth-login.php';
 
                         <?php unset($_SESSION['alert']);
                         } ?>
-                        <div class="card mb-0">
-                    <div class="card-body">
-                    <div class="mb-3 text-center">
-                            <img src="/assets/icon-dynamshop/icons/user.png" alt="" width="80">
+                        <div class="card mb-0 modern-card">
+                    <div class="card-body form-modern">
+                    <div class="mb-4 text-center">
+                            <img src="/assets/icon-dynamshop/icons/user.png" alt="" width="80" class="pulse">
+                            <h4 class="mt-2 text-primary">Selamat Datang</h4>
+                            <p class="text-muted">Masuk ke akun Anda</p>
                         </div>
                         </a>
                                 <form method="POST" class="form form-vertical">
@@ -80,7 +86,7 @@ require_once '../mypulsaa.app/auth-login.php';
                                             <div class="form-group">
                                                 <label class="form-label">Username<font color="red" size="1rem">*</font></label>
                                                 <div class="input-group input-group-merge">
-                                                    <input type="text" class="form-control" name="user" id="user-name" placeholder="Username">
+                                                    <input type="text" class="form-control form-control-modern" name="user" id="user-name" placeholder="Username" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,7 +96,7 @@ require_once '../mypulsaa.app/auth-login.php';
                                                     <label>Password<font color="red" size="1rem">*</font></label>
                                                 </div>
                                                 <div class="input-group form-password-toggle">
-                                                    <input type="password" class="form-control" name="pass" id="user-name" placeholder="******">
+                                                    <input type="password" class="form-control form-control-modern" name="pass" id="password" placeholder="******" required>
                                                     <div class="input-group-append">
                                                         <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
                                                     </div>
@@ -105,10 +111,14 @@ require_once '../mypulsaa.app/auth-login.php';
                                                     </label>
                                                 </div>
                                                 <br>
-                                                <button style="background-color:#0D47A1;color:white;" type="submit" name="login" class="btn btn-block btn-inline">Masuk</button>
+                                                <button type="submit" name="login" class="btn btn-block btn-modern btn-gradient-primary">
+                                                    <i data-feather="log-in" class="mr-1"></i>
+                                                    Masuk
+                                                </button>
                                             </div>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-12 text-center mt-2">
+                                            <p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
                                         </div>
                                     </div>
                                     <div class="login-footer">
@@ -131,6 +141,7 @@ require_once '../mypulsaa.app/auth-login.php';
     <script src="app-assets/js/core/app.js"></script>
 
     <script src="app-assets/js/scripts/pages/page-auth-login.js"></script>
+    <script src="/assets/js/modern-ui.js"></script>
 
     <script>
         $(window).on('load', function() {
