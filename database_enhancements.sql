@@ -104,6 +104,22 @@ CREATE TABLE IF NOT EXISTS `promotional_banners` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Transaction benefits tracking
+CREATE TABLE IF NOT EXISTS `transaction_benefits` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_id` varchar(100) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `original_amount` decimal(10,2) NOT NULL,
+  `final_amount` decimal(10,2) NOT NULL,
+  `voucher_discount` decimal(10,2) DEFAULT 0,
+  `flash_discount` decimal(10,2) DEFAULT 0,
+  `points_earned` int(11) DEFAULT 0,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `order_id` (`order_id`),
+  KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 -- Insert sample data
 INSERT INTO `vouchers` (`code`, `name`, `description`, `type`, `value`, `min_transaction`, `max_discount`, `usage_limit`, `valid_from`, `valid_until`, `status`) VALUES
 ('WELCOME10', 'Welcome Bonus', 'Diskon 10% untuk member baru', 'percentage', 10.00, 10000.00, 5000.00, 100, NOW(), DATE_ADD(NOW(), INTERVAL 30 DAY), 'active'),

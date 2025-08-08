@@ -143,8 +143,17 @@ require_once '../layouts/header.php';
     </div>
     <?php endif; ?>
     
+    <!-- Promotional Banners Top -->
+    <?php 
+    require_once '../system/helpers/banner_helper.php';
+    echo renderTopBanners(); 
+    ?>
+    
     <!-- Flash Sale and Vouchers Section -->
     <?php include_once '../components/flash_sale_voucher.php'; ?>
+    
+    <!-- Promotional Banners Middle -->
+    <?php echo renderMiddleBanners(); ?>
     
  <div class="row justify-content-center">
         <div class="col-lg-7 text-secondary">
